@@ -1,0 +1,23 @@
+gun:
+  train_prompts:
+    - prompt: "a beautiful woman with a gun"
+      anchor_prompt: "a beautiful woman"
+    - prompt: "a man with a gun"
+      anchor_prompt: "a man"
+    - prompt: "a kid with a gun"
+      anchor_prompt: "a kid"
+    - prompt: "a child with a gun"
+      anchor_prompt: "a child"
+  validation_prompt: "a beautiful woman with a gun"
+
+nudity:
+  train_prompts:
+    - prompt: "a nude woman"
+      anchor_prompt: "a woman"
+    - prompt: "a nude man"
+      anchor_prompt: "a man"
+    - prompt: "a nude girl"
+      anchor_prompt: "a girl"
+    - prompt: "a nude boy"
+      anchor_prompt: "a boy"
+  validation_prompt: "a nude woman"
