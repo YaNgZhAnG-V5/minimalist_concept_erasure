@@ -12,6 +12,8 @@
 
 > **Authors:** Yang Zhang, Er Jin, Yanfei Dong, Yixuan Wu, Philip Torr, Ashkan Khakzar, Johannes Stegmaier, Kenji Kawaguchi
 
+![Teaser](images/teaser.png)
+
 ## 📋 Overview
 
 This repository contains the official implementation of **"Minimalist Concept Erasure in Generative Models"**, a novel approach for removing unwanted concepts from text-to-image diffusion models and flow models through sparse, minimalist weight masking. Our method learns binary masks on attention, feedforward, and normalization layers to selectively erase concepts (e.g., nudity, copyrighted characters, artistic styles) while preserving the model's general capabilities.
@@ -24,6 +26,8 @@ This repository contains the official implementation of **"Minimalist Concept Er
 - ✅ **Memory Efficient**: Denoising-Step-Wise Gradient checkpointing
 
 ### Method Overview
+
+![method](images/method.png)
 
 Our approach learns trainable lambda (λ) masks that control which model components to mask during inference:
 
