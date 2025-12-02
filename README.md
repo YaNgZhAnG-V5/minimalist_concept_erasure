@@ -27,7 +27,9 @@ This repository contains the official implementation of **"Minimalist Concept Er
 
 ### Method Overview
 
-![method](images/method.png)
+<p align="center">
+  <img src="images/method.png" alt="Alt Text Description" width="400">
+</p>
 
 Our approach learns trainable lambda (λ) masks that control which model components to mask during inference:
 
